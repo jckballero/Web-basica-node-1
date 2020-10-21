@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include ('partials/head.html') %>
+</head>
+
+<body>
+    <%- include ('partials/navegacion.html') %>
+
+
+
+        <div class="container p-5">
+            <div class="row d-flex flex-wrap ">
+                <div class="card-header col-12 mb-5 bg-dark text-white text-center">
+                    <h3>Proyectos Realizados</h3>
+                </div>
+                <div class="col-4 m-auto text-dark text-center card card-hotel d-flex flex-column justify-content-between">
+                    <i class="fab fa-node fa-10x card-i-top"></i>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Proyecto1</h5>
+                        <h6 class="card-subtitle text-muted">Node JS</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, porro.</p>
+                    </div>
+                    <div>
+                        <a href="#">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 m-auto text-dark text-center card card-hotel d-flex flex-column justify-content-between">
+                    <i class="fab fa-angular fa-10x card-i-top"></i>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Proyecto2</h5>
+                        <h6 class="card-subtitle text-muted">Angular</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, porro.</p>
+                    </div>
+                    <div>
+                        <a href="#">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 m-auto text-dark text-center card card-hotel d-flex flex-column justify-content-between">
+                    <i class="fab fa-react fa-10x card-i-top"></i>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Proyecto3</h5>
+                        <h6 class="card-subtitle text-muted">React</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, porro.</p>
+                    </div>
+                    <div>
+                        <a href="#">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <%- include ('partials/footer.html') %>
+</body>
+
+</html>
