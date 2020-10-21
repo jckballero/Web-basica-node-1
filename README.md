@@ -1,4 +1,5 @@
 # Web-basica-node-1
 Proyecto básico de nodejs, express, y ejs como motor de plantilla
 
-https://raw.githubusercontent.com/jckballero/Web-basica-node-1/blob/master/src/public/img/screenshot_final.png
+![screenshot_final](https://user-images.githubusercontent.com/41482092/96685233-706ea200-1342-11eb-8263-436417ed95d2.png)
+
