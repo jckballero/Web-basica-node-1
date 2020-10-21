@@ -8,7 +8,7 @@ Proyecto básico de nodejs, express, y ejs como motor de plantilla
 ### npm install express
 ### npm install ejs
 ### npm install morgan
-### npm install nodemon
+### npm install nodemon -D
 
 ## Descargar y ejecutar el comando 
 ### npm install
